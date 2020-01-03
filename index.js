@@ -27,6 +27,7 @@ app.group("/api/v1", (router) => {
 
      router.get('/categories', CategoryController.showAll)    
 
+
      //event
      router.get('/events', EventController.showAll)  
      router.get('/event/:id', EventController.showOne)
