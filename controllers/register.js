@@ -6,7 +6,7 @@ const User = models.user
 exports.register = (req, res)=>{    
 
     const name = req.body.name
-    const username = req.body.name
+    const username = req.body.username
     const email = req.body.email
     const password = req.body.password 
     
