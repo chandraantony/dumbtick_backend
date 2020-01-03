@@ -6,20 +6,20 @@ module.exports = {
       {
         event_id: 1,
         user_id:3,
-        createdAt: Date.now(),
-        updatedAt: Date.now(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         event_id: 2,
         user_id:3,
-        createdAt: Date.now(),
-        updatedAt: Date.now(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         event_id: 3,
         user_id:3,
-        createdAt: Date.now(),
-        updatedAt: Date.now(),
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
      
   ], {});
